@@ -1,12 +1,14 @@
 @import './utils/variables';
 @import './utils/hidden';
-@import './utils/reset';
+@import './base/reset';
 @import './base/common';
 @import './components/container';
 @import './components/section';
-@import './sections/header';
+@import './components/header';
 @import './components/logo';
-@import './sections/footer';
+@import './components/navigation';
+@import './components/footer';
+@import './components/button';
 @import './sections/hero';
 @import './sections/features';
 @import './sections/services';

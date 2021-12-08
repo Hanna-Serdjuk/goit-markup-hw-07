@@ -7,3 +7,11 @@
   color: var(--accent-color);
   text-decoration: none;
 }
+
+.logo__part {
+  color: #000000;
+}
+
+.logo__part--reverse {
+  color: var(--contrast-txt-color);
+}

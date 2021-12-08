@@ -1,0 +1,138 @@
+.footer {
+  background-color: #2f303a;
+}
+
+.footer__box {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__contacts {
+  margin-right: 70px;
+}
+
+.footer__social {
+  margin-right: 93px;
+}
+
+.contacts-box__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  transition: color var(--duration-time) var(--timing-function);
+}
+
+.address__link--color-white {
+  color: var(--contrast-txt-color);
+}
+
+.address__link--color-grey {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address__link:hover,
+.address__link:focus {
+  color: var(--accent-color);
+}
+
+.social-box__title {
+  margin-bottom: 20px;
+  color: var(--contrast-txt-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  transition: background-color var(--duration-time) var(--timing-function);
+}
+
+.social__link:hover,
+.social__link:focus {
+  background-color: var(--accent-color);
+}
+
+.social__icon {
+  fill: var(--contrast-txt-color);
+}
+
+.subscribe__label {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--contrast-txt-color);
+}
+
+.subscribe__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__button {
+  position: relative;
+  padding: 10px 62px 10px 29px;
+}
+
+.subscribe__icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}

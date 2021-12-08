@@ -25,30 +25,3 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
-.hero-button {
-  font-family: inherit;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-  border: 2px solid transparent;
-
-  color: var(--contrast-txt-color);
-  background-color: var(--accent-color);
-
-  transition: background-color var(--duration-time) var(--timing-function),
-    box-shadow var(--duration-time) var(--timing-function);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--btn-hover-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
