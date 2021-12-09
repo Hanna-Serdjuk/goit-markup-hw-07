@@ -59,36 +59,6 @@
   text-transform: uppercase;
 }
 
-.social {
-  display: flex;
-}
-
-.social__item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-
-  transition: background-color var(--duration-time) var(--timing-function);
-}
-
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-}
-
-.social__icon {
-  fill: var(--contrast-txt-color);
-}
-
 .subscribe__label {
   display: block;
   margin-bottom: 20px;

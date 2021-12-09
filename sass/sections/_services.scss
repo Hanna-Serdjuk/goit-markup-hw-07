@@ -6,19 +6,19 @@
   margin-bottom: 50px;
 }
 
-.services-list {
+.services__list {
   display: flex;
 }
 
-.services-list .services-item:not(:last-child) {
+.services__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.services-item {
+.services__item {
   position: relative;
 }
 
-.services-name {
+.services__name {
   position: absolute;
   left: 0;
   bottom: 0;
