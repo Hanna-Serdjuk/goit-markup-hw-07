@@ -1,0 +1,120 @@
+.order-form__box {
+  margin-bottom: 10px;
+}
+
+.order-form__label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-txt-color);
+}
+
+.order-form__input-wrap {
+  position: relative;
+  display: block;
+  margin: 0;
+}
+
+.order-form__input {
+  width: 100%;
+  height: 40px;
+  padding: 12px 16px 12px 42px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border var(--duration-time) var(--timing-function);
+}
+
+.order-form__input:hover,
+.order-form__input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.order-form__icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+
+  transform: fill var(--duration-time) var(--timing-function);
+}
+
+.order-form__input:hover + .order-form__icon,
+.order-form__input:focus + .order-form__icon {
+  fill: var(--accent-color);
+}
+
+.order-form__textarea {
+  width: 100%;
+  height: 120px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  resize: none;
+  overflow: auto;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border var(--duration-time) var(--timing-function);
+}
+
+.order-form__textarea:hover,
+.order-form__textarea:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+}
+
+.order-form__textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-color);
+}
+
+.policy__link {
+  color: var(--accent-color);
+}
+
+.policy__icon {
+  display: inline-block;
+  margin-right: 7px;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 16px;
+  height: 15px;
+
+  transition: background-color var(--duration-time) var(--timing-function),
+    border-color var(--duration-time) var(--timing-function);
+}
+
+.policy__checkbox:checked + .policy__icon {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-image: url(../images/iconcheck.svg);
+  background-origin: border-box;
+}
+
+.policy__checkbox:focus + .policy__icon {
+  border-color: var(--accent-color);
+}
+
+.order-form__button {
+  display: block;
+  margin: 30px auto 0;
+}

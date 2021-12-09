@@ -461,55 +461,59 @@
     <!-- Модальное окно и бэкдроп -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="close-button" type="button" data-modal-close>
-          <svg width="18" height="18">
+        <button class="modal__close-button" type="button" data-modal-close>
+          <svg class="modal__close-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-form">
-          <div class="form-input">
-            <label class="modal-label" for="user-name">Имя</label>
-            <span class="input-box">
-              <input type="text" name="name" class="modal-input" id="user-name" />
-              <svg class="input-icon" width="18" height="18">
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="order-form">
+          <div class="order-form__box">
+            <label class="order-form__label" for="user-name">Имя</label>
+            <span class="order-form__input-wrap">
+              <input type="text" name="name" class="order-form__input" id="user-name" />
+              <svg class="order-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </span>
           </div>
-          <div class="form-input">
-            <label class="modal-label" for="user-tel">Телефон</label>
-            <span class="input-box">
-              <input type="tel" name="phone-number" id="user-tel" class="modal-input" />
-              <svg class="input-icon" width="18" height="18">
+          <div class="order-form__box">
+            <label class="order-form__label" for="user-tel">Телефон</label>
+            <span class="order-form__input-wrap">
+              <input type="tel" name="phone-number" id="user-tel" class="order-form__input" />
+              <svg class="order-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </span>
           </div>
-          <div class="form-input">
-            <label class="modal-label" for="user-mail">Почта</label>
-            <span class="input-box">
-              <input type="email" name="email" id="user-mail" class="modal-input" />
-              <svg class="input-icon" width="18" height="18">
+          <div class="order-form__box">
+            <label class="order-form__label" for="user-mail">Почта</label>
+            <span class="order-form__input-wrap">
+              <input type="email" name="email" id="user-mail" class="order-form__input" />
+              <svg class="order-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </span>
           </div>
-          <label class="modal-label"
+          <label class="order-form__label"
             >Комментарий
-            <textarea name="comment" placeholder="Введите текст" class="modal-textarea"></textarea>
+            <textarea
+              name="comment"
+              placeholder="Введите текст"
+              class="order-form__textarea"
+            ></textarea>
           </label>
-          <label class="modal-agreement">
+          <label class="policy">
             <input
-              class="checkbox visually-hidden"
+              class="policy__checkbox visually-hidden"
               type="checkbox"
               name="agreement"
               value="accept"
             />
-            <span class="checkbox-icon"></span>Соглашаюсь с рассылкой и принимаю&nbsp;
-            <a href="" class="agreement-link">Условия договора</a>
+            <span class="policy__icon"></span>Соглашаюсь с рассылкой и принимаю&nbsp;
+            <a href="" class="policy__link">Условия договора</a>
           </label>
-          <button class="button modal-button" type="submit">Отправить</button>
+          <button class="button order-form__button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
