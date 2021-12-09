@@ -1,16 +1,27 @@
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item {
+.features__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: #f5f4fa;
+  border-radius: 3px;
+}
+
+.features__item {
   width: 270px;
 }
 
-.features-list .features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-name {
+.features__name {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -20,22 +31,11 @@
   text-transform: uppercase;
 }
 
-.features-text {
+.features__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
-}
-
-.features-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  height: 120px;
-
-  background-color: #f5f4fa;
-  border-radius: 3px;
 }

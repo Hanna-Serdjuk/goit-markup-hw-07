@@ -314,6 +314,15 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -327,7 +336,7 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-image.jpg);
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -339,37 +348,11 @@ img {
   text-transform: uppercase;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item {
-  width: 270px;
-}
-
-.features-list .features-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features-name {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.features-text {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--secondary-txt-color);
-}
-
-.features-icon {
+.features__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,18 +362,38 @@ img {
   border-radius: 3px;
 }
 
+.features__item {
+  width: 270px;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__name {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color);
+}
+
 .services {
   padding-top: 0;
 }
 
-.section-title {
+.services__title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 
 .services-list {
@@ -427,6 +430,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+}
+
+.team__title {
+  margin-bottom: 50px;
 }
 
 .members-list {
@@ -490,6 +497,10 @@ img {
 .icon-social {
   fill: var(--icon-fill);
   transition: fill var(--duration-time) var(--timing-function);
+}
+
+.clients__title {
+  margin-bottom: 50px;
 }
 
 .clients-list {
