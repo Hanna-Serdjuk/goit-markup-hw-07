@@ -22,6 +22,10 @@
   margin-bottom: 20px;
 }
 
+.logo__part--reverse {
+  color: $contrastTxtColor;
+}
+
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }

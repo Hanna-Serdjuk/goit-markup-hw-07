@@ -3,7 +3,7 @@
 }
 
 .features__icon {
-  @extend %alignment;
+  @extend %centeredFlex;
   margin-bottom: 30px;
   height: 120px;
 
