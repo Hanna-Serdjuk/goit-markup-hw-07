@@ -1,45 +1,45 @@
 .social {
   display: flex;
   justify-content: center;
-}
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
-}
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
 
-.social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
 
-  transition: background-color $durationTime $timingFunction;
-}
+    transition: background-color $durationTime $timingFunction;
+  }
 
-.social__icon {
-  fill: currentColor;
+  &__icon {
+    fill: currentColor;
 
-  transition: fill $durationTime $timingFunction;
+    transition: fill $durationTime $timingFunction;
+  }
 }
 
 .social__link--color-footer {
   color: $contrastTxtColor;
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.social__link--color-footer:hover,
-.social__link--color-footer:focus {
-  background-color: $accentColor;
+  &:hover,
+  &:focus {
+    background-color: $accentColor;
+  }
 }
 
 .social__link--color-team {
   color: $iconFill;
-}
 
-.social__link--color-team:hover,
-.social__link--color-team:focus {
-  color: $contrastTxtColor;
-  background-color: $accentColor;
+  &:hover,
+  &:focus {
+    color: $contrastTxtColor;
+    background-color: $accentColor;
+  }
 }

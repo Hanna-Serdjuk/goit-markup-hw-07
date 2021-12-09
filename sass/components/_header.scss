@@ -1,19 +1,24 @@
 .header {
   border-bottom: 1px solid #ececec;
-}
 
-.header__box {
-  display: flex;
-  align-items: center;
+  &__box {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .header-contacts {
   display: flex;
   margin-left: auto;
-}
 
-.header-contacts__item:not(:last-child) {
-  margin-right: 50px;
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
 
 .header-contacts__link {
@@ -28,14 +33,9 @@
   text-decoration: none;
 
   transition: color $durationTime $timingFunction;
-}
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
-  color: $accentColor;
-}
-
-.header-contacts__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 }

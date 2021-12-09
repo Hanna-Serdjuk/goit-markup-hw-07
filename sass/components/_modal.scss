@@ -55,15 +55,15 @@
   border-radius: 50%;
 
   transition: color $durationTime $timingFunction;
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 }
 
 .modal__close-icon {
   fill: currentColor;
-}
-
-.modal__close-button:hover,
-.modal__close-button:focus {
-  color: $accentColor;
 }
 
 .modal__title {

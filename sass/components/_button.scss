@@ -14,14 +14,14 @@
   letter-spacing: 0.06em;
 
   background-color: $accentColor;
-  color: $contrastTxtColo;
+  color: $contrastTxtColor;
 
   transition: background-color $durationTime $timingFunction,
     box-shadow $durationTime $timingFunction;
-}
 
-.button:hover,
-.button:focus {
-  background-color: $accentColor;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:hover,
+  &:focus {
+    background-color: $btnHoverColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }

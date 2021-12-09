@@ -20,25 +20,25 @@
   text-decoration: none;
 
   transition: color $durationTime $timingFunction;
-}
 
-.nav__link:hover,
-.nav__link:focus {
-  color: $accentColor;
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 }
 
 .nav__link--current {
   color: $accentColor;
   position: relative;
-}
 
-.nav__link--current::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  background-color: $accentColor;
-  border-radius: 2px;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: $accentColor;
+    border-radius: 2px;
+  }
 }
