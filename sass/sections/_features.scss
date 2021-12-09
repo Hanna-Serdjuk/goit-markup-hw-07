@@ -3,9 +3,7 @@
 }
 
 .features__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %alignment;
   margin-bottom: 30px;
   height: 120px;
 
@@ -34,8 +32,6 @@
 .features__text {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @extend %text;
   color: $secondaryTxtColor;
 }
