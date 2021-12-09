@@ -24,15 +24,15 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-txt-color);
+  color: $secondaryTxtColor;
   text-decoration: none;
 
-  transition: color var(--duration-time) var(--timing-function);
+  transition: color $durationTime $timingFunction;
 }
 
 .header-contacts__link:hover,
 .header-contacts__link:focus {
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .header-contacts__icon {

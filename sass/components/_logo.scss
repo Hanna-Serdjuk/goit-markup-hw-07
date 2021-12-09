@@ -4,7 +4,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accentColor;
   text-decoration: none;
 }
 
@@ -13,5 +13,5 @@
 }
 
 .logo__part--reverse {
-  color: var(--contrast-txt-color);
+  color: $contrastTxtColor;
 }

@@ -171,7 +171,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer__contacts {
+.footer__contacts-box {
   margin-right: 70px;
 }
 
@@ -275,7 +275,7 @@ img {
   line-height: 1.86;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--contrast-txt-color);
   transition: background-color var(--duration-time) var(--timing-function), box-shadow var(--duration-time) var(--timing-function);
 }

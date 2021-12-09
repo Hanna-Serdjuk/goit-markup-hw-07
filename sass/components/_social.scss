@@ -15,31 +15,31 @@
   width: 44px;
   border-radius: 50%;
 
-  transition: background-color var(--duration-time) var(--timing-function);
+  transition: background-color $durationTime $timingFunction;
 }
 
 .social__icon {
   fill: currentColor;
 
-  transition: fill var(--duration-time) var(--timing-function);
+  transition: fill $durationTime $timingFunction;
 }
 
 .social__link--color-footer {
-  color: var(--contrast-txt-color);
+  color: $contrastTxtColor;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social__link--color-footer:hover,
 .social__link--color-footer:focus {
-  background-color: var(--accent-color);
+  background-color: $accentColor;
 }
 
 .social__link--color-team {
-  color: var(--icon-fill);
+  color: $iconFill;
 }
 
 .social__link--color-team:hover,
 .social__link--color-team:focus {
-  color: var(--contrast-txt-color);
-  background-color: var(--accent-color);
+  color: $contrastTxtColor;
+  background-color: $accentColor;
 }

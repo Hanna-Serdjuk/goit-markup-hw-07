@@ -9,7 +9,7 @@
   line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: var(--secondary-txt-color);
+  color: $secondaryTxtColor;
 }
 
 .order-form__input-wrap {
@@ -26,13 +26,13 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  transition: border var(--duration-time) var(--timing-function);
+  transition: border $durationTime $timingFunction;
 }
 
 .order-form__input:hover,
 .order-form__input:focus {
   outline: none;
-  border: 1px solid #2196f3;
+  border: 1px solid $accentColor;
 }
 
 .order-form__icon {
@@ -40,12 +40,12 @@
   top: 11px;
   left: 12px;
 
-  transform: fill var(--duration-time) var(--timing-function);
+  transform: fill $durationTime $timingFunction;
 }
 
 .order-form__input:hover + .order-form__icon,
 .order-form__input:focus + .order-form__icon {
-  fill: var(--accent-color);
+  fill: $accentColor;
 }
 
 .order-form__textarea {
@@ -60,13 +60,13 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  transition: border var(--duration-time) var(--timing-function);
+  transition: border $durationTime $timingFunction;
 }
 
 .order-form__textarea:hover,
 .order-form__textarea:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accentColor;
 }
 
 .order-form__textarea::placeholder {
@@ -84,11 +84,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--secondary-txt-color);
+  color: $secondaryTxtColor;
 }
 
 .policy__link {
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .policy__icon {
@@ -99,19 +99,19 @@
   width: 16px;
   height: 15px;
 
-  transition: background-color var(--duration-time) var(--timing-function),
-    border-color var(--duration-time) var(--timing-function);
+  transition: background-color $durationTime $timingFunction,
+    border-color $durationTime $timingFunction;
 }
 
 .policy__checkbox:checked + .policy__icon {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accentColor;
+  border-color: v$accentColor;
   background-image: url(../images/iconcheck.svg);
   background-origin: border-box;
 }
 
 .policy__checkbox:focus + .policy__icon {
-  border-color: var(--accent-color);
+  border-color: $accentColor;
 }
 
 .order-form__button {
