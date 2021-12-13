@@ -544,10 +544,12 @@ img {
   margin-bottom: -30px;
 }
 
-.card {
+.projects__item {
   display: flex;
   flex-direction: column;
   flex-basis: calc((100% - 3 * 30px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .card__content {
@@ -607,11 +609,6 @@ img {
 .card__link:hover .card__overlay,
 .card__link:focus .card__overlay {
   transform: translateY(-100%);
-}
-
-.card--positioned {
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .backdrop {
